@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .Admin_NamePage {
@@ -17,4 +24,69 @@
   width: 70px;
   margin: 5px auto 0px auto;
   border: 1px solid black;
+}
+
+.Game {
+  width: 1800px;
+  height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rebeccapurple;
+}
+
+.Backdrop {
+  width: 100%;
+  height: 80%;
+  background-color: rgba(175, 136, 77, 0.911);
+  display: flex;
+  flex-direction: inherit;
+}
+
+.Background {
+  width: 100%;
+  height: 20%;
+  background-color: brown;
+}
+
+.Fridge {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ButtonsFridge {
+  display: none;
+}
+
+.ButtonFridge {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+  background-color: aquamarine;
+}
+
+.ButtonFridgeOne {
+  width: 100px;
+  height: 30px; 
+  margin-top: 400px;
+  background-color: hotpink;
+}
+
+.ButtonFridgeTwo {
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: hotpink;
+}
+
+.GamerBaker {
+  position: absolute;
+  top: 350px;
+  left: 400px;
+  width: 100px;
+  height: 250px;
+  background-color: bisque;
 }

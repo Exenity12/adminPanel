@@ -10,19 +10,19 @@ function Admin() {
         <NavLink to="/game" className='Admin_ListButton'>
           play
         </NavLink>
-        <NavLink to="/game" className='Admin_ListButton'>
+        <NavLink to="/baker" className='Admin_ListButton'>
           baker
         </NavLink>
-        <NavLink to="/game" className='Admin_ListButton'>
+        <NavLink to="/oven" className='Admin_ListButton'>
           oven
         </NavLink>
-        <NavLink to="/game" className='Admin_ListButton'>
+        <NavLink to="/product" className='Admin_ListButton'>
           product
         </NavLink>
-        <NavLink to="/game" className='Admin_ListButton'>
+        <NavLink to="/recipe" className='Admin_ListButton'>
           recipe
         </NavLink>
-        <NavLink to="/game" className='Admin_ListButton'>
+        <NavLink to="/storage" className='Admin_ListButton'>
           storage
         </NavLink>
       </ul>

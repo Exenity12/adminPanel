@@ -1,12 +1,12 @@
 import { React } from 'react';
 import '../App.css';
 
-function Game() {
+function Baker() {
   return (
-    <div className="Game">
-      GAME
+    <div className="baker">
+      baker
     </div>
   );
 }
 
-export default Game;
+export default Baker;
